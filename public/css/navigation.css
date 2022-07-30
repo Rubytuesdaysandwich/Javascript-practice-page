@@ -1,3 +1,52 @@
-ul nav {
-  background-color: aqua;
+/* header */
+header {
+  height: 10vh;
 }
+nav ul li a {
+  position: relative;
+  left: 45%;
+  top: 20px;
+  color: white;
+  text-decoration: none;
+}
+/* end header navigation css */
+/* header & Footer */
+header,
+footer {
+  position: absolute;
+  background-color: #101010;
+  width: 100%;
+  color: white;
+  margin-right: 20px;
+}
+/* end header & Footer */
+/*footer section*/
+footer {
+  height: 15vh;
+  bottom: 0;
+}
+
+.social-icons .social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #495057;
+  color: #fff;
+  border-radius: 100%;
+  font-size: 1.5rem;
+  margin-right: 1.5rem;
+  margin-top: 20px;
+}
+.social-icons .social-icon:last-child {
+  margin-right: 0;
+}
+.social-icons .social-icon:hover {
+  background-color: #bd5d38;
+}
+.dev-icons {
+  font-size: 3rem;
+}
+
+/* end footer css */
