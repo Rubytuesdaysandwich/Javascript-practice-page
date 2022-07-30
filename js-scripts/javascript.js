@@ -1,5 +1,5 @@
-const displayMath = function () {
-  console.log = "";
+const displayWords = function (words) {
+  document.querySelector(".text").textContent = words;
 };
 
-displayMath();
+displayWords(6 + 2 + 6);
