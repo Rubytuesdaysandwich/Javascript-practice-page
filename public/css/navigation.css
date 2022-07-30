@@ -1,19 +1,38 @@
 /* header */
 header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10%;
   height: 10vh;
 }
-nav ul li a {
-  position: relative;
-  left: 45%;
-  top: 20px;
+.logo {
+  display: flex;
+  height: 30px;
+  justify-content: left;
+  cursor: pointer;
+}
+.nav-links {
+  list-style: none;
+}
+.nav-links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.nav-links li a {
   color: white;
   text-decoration: none;
+  transition: all 0.3s ease 0s;
 }
+.nav-links li a:hover {
+  color: red;
+}
+
 /* end header navigation css */
 /* header & Footer */
 header,
 footer {
-  position: absolute;
+  display: flex;
   background-color: #101010;
   width: 100%;
   color: white;
