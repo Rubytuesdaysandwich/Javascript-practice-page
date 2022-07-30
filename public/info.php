@@ -5,7 +5,3 @@
 
 <?php include('../private/shared/public_footer.php');//bring in code from public footer?>
 
-
-
-
-
