@@ -1,5 +1,5 @@
-const displayWords = function (words) {
-  document.querySelector(".text").textContent = words;
-};
+// const displayWords = function (words) {
+//   document.querySelector(".text").textContent = words;
+// };
 
-displayWords(6 + 2 + 6);
+// displayWords(6 + 2 + 6);

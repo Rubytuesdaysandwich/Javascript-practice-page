@@ -7,3 +7,6 @@ body {
   font-family: "Saira Extra Condensed";
   font-weight: 600;
 }
+main {
+  margin: 10px 10px;
+}
