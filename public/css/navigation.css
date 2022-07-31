@@ -60,6 +60,9 @@ footer {
   margin-right: 1.5rem;
   margin-top: 20px;
 }
+.social-icons .social-icon:first-child {
+  margin-left: 8px;
+}
 .social-icons .social-icon:last-child {
   margin-right: 0;
 }
