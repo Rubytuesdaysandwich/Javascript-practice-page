@@ -8,7 +8,7 @@ header {
 }
 .logo {
   display: flex;
-  height: 30px;
+  height: 3rem;
   justify-content: left;
   cursor: pointer;
 }
@@ -45,6 +45,8 @@ footer {
 footer {
   height: 15vh;
   bottom: 0;
+  position: fixed;
+  bottom: 0;
 }
 
 .social-icons .social-icon {
@@ -61,7 +63,7 @@ footer {
   margin-top: 20px;
 }
 .social-icons .social-icon:first-child {
-  margin-left: 8px;
+  margin-left: 1rem;
 }
 .social-icons .social-icon:last-child {
   margin-right: 0;
