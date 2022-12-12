@@ -76,3 +76,9 @@ footer {
 }
 
 /* end footer css */
+/*current page*/
+.current-page {
+  display: flex;
+  justify-self: center;
+  letter-spacing: 2px;
+}
