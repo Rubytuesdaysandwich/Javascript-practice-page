@@ -44,9 +44,8 @@ footer {
 /*footer section*/
 footer {
   height: 15vh;
-  bottom: 0;
-  position: fixed;
-  bottom: 0;
+  position: static;
+  /* bottom: 0; */
 }
 
 .social-icons .social-icon {
