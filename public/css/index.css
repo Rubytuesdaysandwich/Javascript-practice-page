@@ -1,5 +1,7 @@
-.hero-container {
-  background-image: url(../../assets/img/the-nigmatic-YefEvN5CDLY-unsplash.jpg);
+.hero-container > .hero-img {
+  /* background-image: url("../../imgs/the-nigmatic-YefEvN5CDLY-unsplash.jpg"); */
   background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
+  z-index: -1;
 }

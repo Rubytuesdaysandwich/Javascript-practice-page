@@ -6,7 +6,5 @@
 body {
   font-family: "Saira Extra Condensed";
   font-weight: 600;
-}
-.main {
-  margin: 10px;
+  background-color: rgb(rgb(14, 11, 11), rgb(19, 36, 19), rgb(12, 12, 17));
 }
